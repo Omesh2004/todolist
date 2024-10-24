@@ -81,7 +81,7 @@ function App() {
 
   return (
     <div>
-      <div className={styles.container}>Welcome to the Decentralized To Do Application</div>
+      <div className={styles.container}>Welcome to the Decentralized To Do List Application</div>
       <div className={styles.container}>
         <form className={styles.form} onSubmit={handleSubmit}>
           <input type="text" name="task" placeholder="Add task here ..." onChange={handleChange} value={task} />
